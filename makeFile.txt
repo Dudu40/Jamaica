@@ -1,0 +1,27 @@
+CC=gcc -Wall
+CFLAGS=-lm
+LDFLAGS=-lm
+EXEC=jamaa
+
+all: $(EXEC)
+
+$(EXEC) : intialisation.o affichage.o jamaa.o
+	$(CC) -o jamaa initialisation.o affichage.o jamaa.o $(LDFLAGS)
+
+initialisation.o : initialisation.c initialisation.h
+	$(CC) -o initialisation.o -c initialisation.c $(CFLAGS)
+
+affichage.o : affichage.c affichage.h
+	$(CC) -o affichage.o -c affichage.c $(CFLAGS)
+
+jamaa.o : jamaa.c
+	$(CC) -o jamaa.o -c jamaa.c $(CFLAGS)
+
+clean:
+	rm initialisation.o
+	rm affichage.o
+	rm jamaa.o
+
+mrproper: clean
+	rm -f $(EXEC)
+

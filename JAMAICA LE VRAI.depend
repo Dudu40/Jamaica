@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1589778274 source:c:\users\matth\desktop\estaca\algo\jamaica le vrai\jamaa.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	"initialisation.h"
+	"affichage.h"
+
+1589772852 c:\users\matth\desktop\estaca\algo\jamaica le vrai\initialisation.h
+
+1589773087 source:c:\users\matth\desktop\estaca\algo\jamaica le vrai\initialisation.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	"initialisation.h"
+
+1589778991 source:c:\users\matth\desktop\estaca\algo\jamaica le vrai\affichage.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	"initialisation.h"
+	"affichage.h"
+
+1589778162 c:\users\matth\desktop\estaca\algo\jamaica le vrai\affichage.h
+
